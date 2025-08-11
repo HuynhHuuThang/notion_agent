@@ -1,0 +1,18 @@
+{
+  "name": "notion_helpers",
+  "version": "1.0.0",
+  "description": "Notion note with AI generated plan",
+  "main": "main.js",
+  "scripts": {
+    "test": "node dev.js",
+    "board-view": "node board_view_example.js",
+    "board-examples": "node board_view_examples.js",
+    "create-from-md": "node create_tasks_from_md.js"
+  },
+  "author": "HHT",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^4.0.1",
+    "dotenv": "^17.2.1"
+  }
+}
